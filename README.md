@@ -1,9 +1,47 @@
-## YOLO and OpenCV for Energy Saving via Object Detection.
-The main objective of this project is to save energy by automation of appliances. The allows switching on and off fan control according to human. Fan will be turned on when a human enters the room. Fan will be turned off when humans leave the room. Temperature information will be displayed in a LED screen. Temperature sensor (LM35) will sense the room temperature. Image processing is used to detect the people who are entering or leaving the room .It allows to sense motion, almost always used to detect whether a human has moved in or out of the room. The fan is turned on only the zone where a human is detected and the fans in other zones are turned off.
+# YOLO and OpenCV for Energy Saving via Object Detection.
 
-Fans usually provide two options for directing airflow:
-1. The fan is static and needs to be physically redirected to direct air in the desired direction.
-2. The fan can rotate back and forth at a set angle which is approximately 180 degrees.
-We can solve these daily stresses and inconveniences of fan use by automating the process based 
-on the user presence inside room, which will be identified using image processing.
+## Overview
+The Energy Saving IoT Automation System is an innovative project designed to reduce energy wastage by automating the control of home appliances. The system utilizes sensor data and real-time image processing to detect room occupancy and adjust appliance settings (such as fan speed and lighting) accordingly. This project not only improves energy efficiency but also enhances safety and convenience for users.
 
+## Motivation:
+With rising energy consumption and increasing electricity bills, there is a growing need to use energy more efficiently. Traditional manual switching of appliances can lead to unnecessary energy waste, especially when rooms are unoccupied.
+
+## Objectives:
+1. Automatically detect human presence using image processing.
+2. Adjust fan speed based on real-time temperature readings.
+3. Reduce energy wastage by ensuring appliances operate only when needed.
+4. Provide remote monitoring and control of home appliances using IoT connectivity.
+
+## Key Features
+**1. Automatic Appliance Control:**
+The system turns appliances (such as fans and lights) on or off based on occupancy detection and environmental conditions.
+
+**2. Temperature-Based Fan Speed Control:**
+A temperature sensor (e.g., LM35) monitors the room temperature and adjusts the fan speed accordingly to maintain a comfortable environment.
+
+**3. Real-Time Object Detection:**
+Utilizes the YOLO (You Only Look Once) algorithm to detect people in video streams, ensuring accurate occupancy detection.
+
+**4. Image Processing with OpenCV:**
+OpenCV is used to capture video, process frames, and highlight detected objects with bounding boxes, making it easy to visualize system performance.
+
+**5. IoT Connectivity:**
+Integrates Arduino UNO, NodeMCU, and MQTT messaging to create a seamless interface between hardware sensors, controllers, and the software application.
+
+## Technologies Used
+**1. YOLO (You Only Look Once):**
+Employed for real-time object detection in video streams.
+Loads pre-trained YOLOv3 weights and configuration files to accurately detect humans.
+
+**2. OpenCV:**
+Handles video capture and image processing tasks.
+Provides functions to process frames, draw bounding boxes around detected objects, and display real-time information.
+
+**3. Additional Technologies:**
+Python: For scripting and handling the image processing and IoT control logic.
+
+Arduino UNO & NodeMCU: For interfacing with sensors (temperature, PIR) and controlling appliances.
+
+MQTT: Facilitates messaging between IoT devices.
+
+Sensors: These include temperature sensors (e.g., LM35) and PIR sensors for human detection.  
