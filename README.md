@@ -37,12 +37,10 @@ Loads pre-trained YOLOv3 weights and configuration files to accurately detect hu
 Handles video capture and image processing tasks.
 Provides functions to process frames, draw bounding boxes around detected objects, and display real-time information.
 
-**3. Additional Technologies:**
+**3. Python:** For scripting and handling the image processing and IoT control logic.
 
-Python: For scripting and handling the image processing and IoT control logic.
+**4. Arduino UNO & NodeMCU:** For interfacing with sensors (temperature, PIR) and controlling appliances.
 
-Arduino UNO & NodeMCU: For interfacing with sensors (temperature, PIR) and controlling appliances.
+**5. MQTT:** Facilitates messaging between IoT devices.
 
-MQTT: Facilitates messaging between IoT devices.
-
-Sensors: These include temperature sensors (e.g., LM35) and PIR sensors for human detection.  
+**6. Sensors:** These include temperature sensors (e.g., LM35) and PIR sensors for human detection.  
