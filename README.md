@@ -5,4 +5,5 @@ Fans usually provide two options for directing airflow:
 1. The fan is static and needs to be physically redirected to direct air in the desired direction.
 2. The fan can rotate back and forth at a set angle which is approximately 180 degrees.
 We can solve these daily stresses and inconveniences of fan use by automating the process based 
-on the user presence inside room ,which will be identified using image processing.
+on the user presence inside room, which will be identified using image processing.
+
