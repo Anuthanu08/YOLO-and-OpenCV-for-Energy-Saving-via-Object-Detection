@@ -38,6 +38,7 @@ Handles video capture and image processing tasks.
 Provides functions to process frames, draw bounding boxes around detected objects, and display real-time information.
 
 **3. Additional Technologies:**
+
 Python: For scripting and handling the image processing and IoT control logic.
 
 Arduino UNO & NodeMCU: For interfacing with sensors (temperature, PIR) and controlling appliances.
